@@ -23,4 +23,11 @@ Starter Code:
 
 function convertObjectToList(obj) {
   // your code here
+  var returnArr = []
+  for(const key in obj){
+    returnArr.push([key, obj[key]])
+  }
+
+
+  return returnArr
 }
