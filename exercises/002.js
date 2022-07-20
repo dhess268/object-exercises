@@ -26,5 +26,10 @@ function getAllKeys(obj) {
 */
 
 function getAllKeys(obj){
-  // your code here
+  var keys = []
+  for(const key in obj){
+    keys.push(key)
+  }
+  console.log(keys)
+  return keys
 }
