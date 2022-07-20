@@ -29,5 +29,9 @@ Starter Code
 
 function listAllValues(obj) {
   // your code here
-
+  var values = []
+  for(const key in obj){
+    values.push(obj[key])
+  }
+  return values
 }
